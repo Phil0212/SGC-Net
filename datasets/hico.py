@@ -14,10 +14,10 @@ from utils.sampler import repeat_factors_from_category_frequency, get_dataset_in
 
 
 # NOTE: Replace the path to your file
-HICO_TRAIN_ROOT = "/root/.cache/huggingface/forget/lab/shichong/datasets/hico-det/images/train2015"
-HICO_TRAIN_ANNO = "/root/.cache/huggingface/forget/lab/shichong/datasets/hico-det/annotations/trainval_hico_ann.json"
-HICO_VAL_ROOT = "/root/.cache/huggingface/forget/lab/shichong/datasets/hico-det/images/test2015"
-HICO_VAL_ANNO = "/root/.cache/huggingface/forget/lab/shichong/datasets/hico-det/annotations/test_hico_ann.json"
+HICO_TRAIN_ROOT = " "
+HICO_TRAIN_ANNO = " "
+HICO_VAL_ROOT = " "
+HICO_VAL_ANNO = " "
 
 class HICO(CocoDetection):
     def __init__(

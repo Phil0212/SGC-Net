@@ -12,11 +12,11 @@ from .swig_v1_categories import SWIG_INTERACTIONS, SWIG_ACTIONS, SWIG_CATEGORIES
 from utils.sampler import repeat_factors_from_category_frequency, get_dataset_indices
 
 # NOTE: Replace the path to your file
-SWIG_ROOT = "/workspace/datasets/swig_hoi/images_512"
-SWIG_ROOT = "/root/.cache/huggingface/forget/lab/shichong/workspace/datasets/swig_hoi/images_512"
-SWIG_TRAIN_ANNO = "/root/.cache/huggingface/forget/lab/shichong/workspace/datasets/swig_hoi/annotations/swig_trainval_1000.json"
-SWIG_VAL_ANNO = "/root/.cache/huggingface/forget/lab/shichong/workspace/datasets/swig_hoi/annotations/swig_test_1000.json"
-SWIG_TEST_ANNO = "/root/.cache/huggingface/forget/lab/shichong/workspace/datasets/swig_hoi/annotations/swig_test_1000.json"
+SWIG_ROOT = " "
+SWIG_ROOT = " "
+SWIG_TRAIN_ANNO = " "
+SWIG_VAL_ANNO = " "
+SWIG_TEST_ANNO = " "
 
 
 
