@@ -84,14 +84,16 @@ bash test.sh --dataset_file ...  --pretrained ...
 
 ## Models
 
-| dataset | | Unseen | Seen | Full | Checkpoint |
-| :-----: | :-----: | :-----: | :-----: | -----: | :-----: |
-| HICO-DET |  | 23.27 | 28.34 | 27.22 | [params]()|
+| Dataset  | Unseen | Seen  | Full  | Ckeckpoint |
+|:----------:|:--------:|:-------:|:-------:|:-------------:|
+| HICO-Det | 23.27  | 28.34 | 27.22 |  [params]() |
 
 
-| dataset |  | Non-rare | Rare | Unseen | Full |  Checkpoint |
-| :-----: | :-----: | :-----: | :-----: |:-----: | :-----: | :-----: |
-| SWIG-HOI |  | 23.67 | 16.55 | 12.46 | 17.20 | [params]()|
+| Dataset  | Non-Rare | Rare  | Unseen | Full  | Ckeckpoints |
+|:--------:|:--------:|:-----:|:------:|:-----:|:-----------:|
+| SWIG-HOI | 23.67    | 16.55 | 12.46  | 17.20 |[params]()   |
+
+
 
 
 ## Acknowledgments 
