@@ -91,7 +91,7 @@ bash test.sh --dataset_file ...  --pretrained ...
 
 | dataset |  | Non-rare | Rare | Unseen | Full |  Checkpoint |
 | :-----: | :-----: | :-----: | :-----: |:-----: | :-----: | :-----: |
-| SWIG-HOI |  | 23,67 | 16.55 | 12.46 | 17.20 | [params]()|
+| SWIG-HOI |  | 23.67 | 16.55 | 12.46 | 17.20 | [params]()|
 
 
 ## Acknowledgments 
