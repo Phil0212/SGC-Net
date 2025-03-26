@@ -68,7 +68,8 @@ python tools/build_tree.py
 Run this command to train the model in HICO-DET/SWIG-HOI dataset
 
 ``` bash
-bash train.sh --dataset_file ...
+bash ./tools/train_hico.sh
+bash ./tools/train_swig.sh
 ```
 
 
@@ -77,7 +78,8 @@ bash train.sh --dataset_file ...
 Run this command to evaluate the model on HICO-DET/SWIG-HOI dataset
 
 ``` bash
-bash test.sh --dataset_file ...  --pretrained ...
+bash ./tools/test_hico.sh
+bash ./tools/test_swig.sh
 ```
 
 
