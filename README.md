@@ -89,7 +89,7 @@ bash test.sh --dataset_file ...  --pretrained ...
 | HICO-Det | 23.27  | 28.34 | 27.22 |  [params]() |
 
 
-| Dataset  | Non-Rare | Rare  | Unseen | Full  | Ckeckpoints |
+| Dataset  | Non-Rare | Rare  | Unseen | Full  | Ckeckpoint |
 |:--------:|:--------:|:-----:|:------:|:-----:|:-----------:|
 | SWIG-HOI | 23.67    | 16.55 | 12.46  | 17.20 |[params]()   |
 
