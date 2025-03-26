@@ -1,4 +1,4 @@
-python -m torch.distributed.launch --nproc_per_node=1 --master_port 3093 --use_env main.py \
+python -m torch.distributed.launch --nproc_per_node=1 --master_port 3090 --use_env main.py \
     --batch_size 32 \
     --output_dir ../checkpoints/hico_det/ \
     --epochs 100 \

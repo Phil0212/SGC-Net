@@ -1,4 +1,4 @@
-python -m torch.distributed.launch --nproc_per_node=1 --master_port 3093 --use_env main.py \
+python -m torch.distributed.launch --nproc_per_node=1 --master_port 3091 --use_env main.py \
     --batch_size 64 \
     --output_dir ./checkpoints/swig_hoi/ \
     --epochs 100 \
@@ -8,4 +8,4 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port 3093 --use_e
     --enable_dec \
     --dataset_file hico \
     --enable_focal_loss --description_file_path ../buid_tree/swig-build-tree-embedding.json \
-    --eval --pretrained ./checkpoints/swig_hoi//model.pth \
+    --eval --pretrained ./checkpoints/swig_hoi/model.pth \

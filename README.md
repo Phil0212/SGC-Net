@@ -1,5 +1,5 @@
 # SGC-Net: Stratified Granular Comparison Network for Open-Vocabulary HOI Detection.
-Pytorch Implementation of the framework **SGC-Net** proposed in our paper [Stratified Granular Comparison Network for Open-Vocabulary HOI Detection.](https://arxiv.org/pdf/2503.00414)
+Pytorch Implementation of the framework **SGC-Net** proposed in our paper [SGC-Net:Stratified Granular Comparison Network for Open-Vocabulary HOI Detection.](https://arxiv.org/pdf/2503.00414)
 
 ## Overview
 **Abstract:** Recent open-vocabulary human-object interaction (OV-HOI) detection methods primarily rely on large language model (LLM) for generating auxiliary descriptions and leverage knowledge distilled from CLIP to detect unseen interaction categories. Despite their effectiveness, these methods face two challenges: (1) feature granularity deficiency, due to reliance on last layer visual features for text alignment, leading to the neglect of crucial object-level details from intermediate layers; (2) semantic similarity confusion, resulting from CLIP's inherent biases toward certain classes, while LLM-generated descriptions based solely on labels fail to adequately capture inter-class similarities. To address these challenges, we propose a stratified granular comparison network. First, we introduce a granularity sensing alignment module that aggregates global semantic features with local details, refining interaction representations and ensuring robust alignment between intermediate visual features and text embeddings. Second, we develop a hierarchical group comparison module that recursively compares and groups classes using LLMs, generating fine-grained and discriminative descriptions for each interaction category. Experimental results on two widely-used benchmark datasets, SWIG-HOI and HICO-DET, demonstrate that our method achieves state-of-the-art results in OV-HOI detection. 
@@ -65,24 +65,32 @@ python tools/build_tree.py
 
 ## Training
 
-Run this command to train the model in HICO-DET/SWIG-HOI dataset
+Run this command to train the model in HICO-DET dataset
 
 ``` bash
 bash ./tools/train_hico.sh
+```
+
+Run this command to train the model in SWIG-HOI dataset
+
+``` bash
 bash ./tools/train_swig.sh
 ```
 
 
 ## Inference
 
-Run this command to evaluate the model on HICO-DET/SWIG-HOI dataset
+Run this command to evaluate the model on HICO-DET dataset
 
 ``` bash
 bash ./tools/test_hico.sh
-bash ./tools/test_swig.sh
 ```
 
+Run this command to evaluate the model on SWIG-HOI dataset
 
+``` bash
+bash ./tools/test_swig.sh
+```
 
 ## Models
 
