@@ -99,13 +99,12 @@ bash ./tools/test_swig.sh
 
 | Dataset  | Unseen | Seen  | Full  | Ckeckpoint |
 |:----------:|:--------:|:-------:|:-------:|:-------------:|
-| HICO-Det | 23.27  | 28.34 | 27.22 |  [params]() |
+| HICO-Det | 23.27  | 28.34 | 27.22 |  [CKPT](https://pan.baidu.com/s/1E6F_aG_VTk-s93_DtRW57Q?pwd=guzd) |
 
 
 | Dataset  | Non-Rare | Rare  | Unseen | Full  | Ckeckpoint |
 |:--------:|:--------:|:-----:|:------:|:-----:|:-----------:|
-| SWIG-HOI | 23.67    | 16.55 | 12.46  | 17.20 |[params]()   |
-
+| SWIG-HOI | 23.67    | 16.55 | 12.46  | 17.20 |[CKPT]()   |
 
 
 
