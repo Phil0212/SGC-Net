@@ -106,7 +106,16 @@ bash ./tools/test_swig.sh
 |:--------:|:--------:|:-----:|:------:|:-----:|:-----------:|
 | SWIG-HOI | 23.67    | 16.55 | 12.46  | 17.20 |[CKPT]()   |
 
-
+## Citing
+Please consider citing our paper if it helps your research.
+```bash
+@article{lin2025sgc,
+  title={SGC-Net: Stratified Granular Comparison Network for Open-Vocabulary HOI Detection},
+  author={Lin, Xin and Shi, Chong and Yang, Zuopeng and Tang, Haojin and Zhou, Zhili},
+  journal={arXiv preprint arXiv:2503.00414},
+  year={2025}
+} 
+```
 
 ## Acknowledgments 
 We gratefully acknowledge the authors of the following repositories, from which portions of our code are adapted.
