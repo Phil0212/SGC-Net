@@ -241,7 +241,7 @@ if __name__ == '__main__':
     for k in label_to_classname:
         description_encodings_final[k] = description_encodings[k]
 
-    with open("./tools/swig_decriptions_embedding.json", 'w') as f:
+    with open("./tools/" + args.dataset_file + "_decriptions_embedding.json", 'w') as f:
         json.dump(description_encodings_final, f)
 
 

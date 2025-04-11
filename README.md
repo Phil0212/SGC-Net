@@ -71,7 +71,7 @@ python tools/main.py
 Run this command to train the model in HICO-DET dataset
 
 ``` bash
-bash ./tools/train_hico.sh
+bash ./tools/train_hico.sh --dataset_file [hico/swig]
 ```
 
 Run this command to train the model in SWIG-HOI dataset
