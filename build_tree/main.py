@@ -1,7 +1,7 @@
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-os.environ["OPENAI_API_KEY"] = "sk-cogrCVJ8DP4PZT8Y0aA901EfF3Ee4e9bA9525a2aE742D149"
-os.environ["OPENAI_BASE_URL"] = "https://api.cpdd666.cn/v1"
+
+# os.environ["OPENAI_API_KEY"] = "
+# os.environ["OPENAI_BASE_URL"] = ""
 
 import json
 import sys
