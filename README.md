@@ -62,7 +62,7 @@ The SWIG-DET dataset can be downloaded from [here](https://swig-data-weights.s3.
 Run this command to generate fine-grained descriptions for HICO-DET/SWIG-HOI dataset or download from [here]().
 
 ``` bash
-python tools/build_tree.py
+python tools/main.py
 ```
 
 
