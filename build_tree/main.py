@@ -132,7 +132,7 @@ def build_tree_in_loop(class_names, descriptors):
         else:
             print("summary!!")
             res = generate_description_overall(categories_group, res, openai)           
-            res = build_tree_in_loop(categories_group, res, is_first_loop=False)
+            res = build_tree_in_loop(categories_group, res)
 
 
     return res
