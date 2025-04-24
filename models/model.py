@@ -667,7 +667,6 @@ class HOIDetector(nn.Module):
 
         image_tree_similarity_cumulative = []
         dot_product_matrix_base_cumulative = []
-        auxiliary_logit_scale = self.auxiliary_logit_scale.exp()
         image_encodings = F.normalize(vision_outputs["hoi_features"])
 
         assert text_features.shape[0] == len(hoi_descriptions_tree_emb)
@@ -683,9 +682,9 @@ class HOIDetector(nn.Module):
                 first_false = (mask == False).cumsum(dim=1) >= 1
                 mask[first_false] = False
                 dot_product_matrix_comp = (score * mask).sum(dim=-1) / mask.sum(dim=-1)
-                image_tree_similarity_cumulative.append(dot_product_matrix_comp * auxiliary_logit_scale)
+                image_tree_similarity_cumulative.append(dot_product_matrix_comp)
             else:
-                image_tree_similarity_cumulative.append(dot_product_matrix_base * auxiliary_logit_scale)
+                image_tree_similarity_cumulative.append(dot_product_matrix_base)
 
         cumulative_tensor_tree = torch.stack(image_tree_similarity_cumulative, dim=-1)
         cumulative_base_tree = torch.stack(dot_product_matrix_base_cumulative, dim=-1)
